@@ -1,1 +1,10 @@
 
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://civicpulse-backend-zoi9.onrender.com/api/$1"
+    }
+  ]
+}
+
